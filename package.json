@@ -1,0 +1,42 @@
+{
+  "name": "header-guard",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI and library that audits HTTP security headers (CSP, HSTS, cookies, CORS) with actionable fixes. CI-friendly.",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "header-guard": "bin/header-guard.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "security",
+    "http-headers",
+    "csp",
+    "content-security-policy",
+    "hsts",
+    "cookies",
+    "cors",
+    "audit",
+    "cli",
+    "ci"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushinoyuya/header-guard.git"
+  },
+  "homepage": "https://github.com/kushinoyuya/header-guard#readme",
+  "bugs": {
+    "url": "https://github.com/kushinoyuya/header-guard/issues"
+  }
+}

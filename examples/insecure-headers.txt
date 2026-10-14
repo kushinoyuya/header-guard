@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+X-Powered-By: Express
+Content-Security-Policy: default-src 'self' 'unsafe-inline' https:
+Access-Control-Allow-Origin: null
+Set-Cookie: session_id=abc123; Path=/
+Set-Cookie: theme=dark; Path=/; SameSite=Lax
